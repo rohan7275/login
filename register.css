@@ -1,0 +1,167 @@
+body {
+    background-image: url("./../img/background6.jpg");
+    background-position: center;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0f0f11;
+    color: #FFF;
+    padding: 10px;
+}
+
+.header {
+    background-image: -webkit-radial-gradient(#181A1Edd 5%, #181A1E00 90%);
+    height: fit-content;
+    width: 340px;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    margin: 10px auto 10px auto;
+}
+
+.logo-div {
+    height: fit-content;
+    margin: 20px auto 50px auto;
+    align-items: center;
+    text-align: center!important;
+}
+
+.logo-img {
+    height: 100px;
+    padding: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.logo-img:hover {
+    height: 110px;
+    padding: 0px;
+}
+
+.head-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+}
+
+.login-box {
+    background-color: #181A1Eaa;
+    height: fit-content;
+    text-align: center;
+    width: 660px;
+    padding: 50px 40px;
+    margin: -17px auto;
+    border: 1px solid #94A7FF;
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.login-box:hover {
+    background-color: #181A1Edd;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+label {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+input {
+    font-size: 15px;
+    width: 248px;
+    height: 30px;
+    background-color: #0f0f11;
+    margin: 10px 30px 10px 30px;
+    padding: 0px 5px;
+    color: #3e4278;
+    border: 1px solid #252633;
+    border-radius: 5px;
+    overflow: visible;
+    -webkit-transition: 0.85s;
+    transition: 0.85s;
+}
+
+input:focus {
+    border: 2px solid #94A7FF;
+    color: white;
+}
+
+input[type=text] {
+    font-size: 15px;
+}
+
+input[type=password] {
+    font-size: 25px;
+}
+
+.button-div {
+    align-self: flex-end;
+    align-items: flex-end;
+    margin: 0px 0px 0px auto;
+}
+
+button {
+    cursor: pointer;
+    background-color: #219519;
+    color: #FFF;
+    height: 35px;
+    align-self: flex-end;
+    width: 30%;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    vertical-align: middle;
+    border: 1px solid #252633;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: #0f0f11;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 13px;
+    background-color: #94A7FF;
+}
+
+.register-box {
+    text-align: center;
+    background-color: #181A1E77;
+    width: 340px;
+    border: 1px solid #444665;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 5px 40px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.register-box:hover {
+    background-color: #181A1Edd;
+}
+
+.register-text {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+a {
+    color: #94A7FF;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}

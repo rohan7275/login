@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login to eBookHub | eBookHub</title>
+    <link rel="icon" href="./../img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <script src="welcome.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-div">
+            <a href="./../index.html"><img class="logo-img" src="./../img/logo.png" type="image/png" height="30px" align="center" alt="logo"></a>
+        </div>
+        <h2 class="head-text" align="center">Login &nbsp;to &nbsp;<strong>eBookHub</strong></h2>
+    </div>
+    <div class="login-box">
+        <form id="loginForm" onsubmit="login()">
+            <label for="username">Username<label>
+            </br>
+            <input type="text" id="email">
+            </br>
+            </br>
+            <label for="password">Password<label>
+            </br>
+            <input type="password" id="password">
+            </br>
+            </br>
+            </br>
+            <button  onclick="login()">Login</button>
+            </br>
+            <output id="status"></output>
+        </form>
+    </div>
+    <div class="register-box">
+        <p class="register-text"> Not a member yet?  &nbsp; <a href="register.html">Register</a></p>
+    </div>
+    <div>
+    <div class="forgot_pass">
+        <button  onclick="forgotPass()">forgot password</button>
+    </div>
+</div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+        <script src="firebase.js"></script>
+        <script src="login.js"></script>
+    </body>
+</html>

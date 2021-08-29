@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>eBookHub Registration | eBookHub</title>
+    <link rel="icon" href="./../img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register.css">
+    <script src="login.js"></script>
+    <script src="welcome.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-div">
+            <a href="./../index.html"><img class="logo-img" src="./../img/logo.png" type="image/png" height="30px" align="center" alt="logo"></a>
+        </div>
+        <h2 class="head-text" align="center">Register &nbsp;at &nbsp;<strong>eBookHub</strong></h2>
+    </div>
+    <div class="login-box" ">
+        <form id="registerForm" onsubmit="login()">
+            
+            <input type="text" id="name" placeholder="Full Name">
+            </br></br>
+            
+            <!--<label for="dob">Date of Birth<label>-->
+            
+            <input type="date" id="dob" placeholder="2001-01-01">
+            
+            
+            
+            <!--<label for="username">Pick a Username<label>-->
+            
+            <input type="text" id="email" placeholder="Choose Username">
+            
+            </br></br>
+            
+            <!--<label for="password1">Password<label>-->
+            
+            <input type="password" id="password" placeholder="Password">
+            
+            
+            
+            <!--<label for="password2">Confirm Password<label>-->
+            
+            <input type="password" id="password2" placeholder="Confirm Password">
+            </br></br>
+            </br></br>
+            <div>
+            <div>
+            <button  type="button" onclick="signUp()">Register</button>
+        </div>
+    </div>
+            
+            <output id="status"></output>
+        </form>
+    </div>            </br>
+
+    <div class="register-box">
+        <p class="register-text"> Already a member?  &nbsp; <a href="login.html">Login here.</a></p>
+    </div>
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+     <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+     <script src="firebase.js"></script>
+     <script src="login.js"></script>
+</body>
+
+</html>
